@@ -1,0 +1,193 @@
+html {
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color:#5B3C30;
+    display: flex;
+    color: white;
+    position: fixed;
+
+}
+.nav-bar ul {
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
+     justify-content: space-evenly;
+     width: 90%;
+ }
+ .nav-bar li {
+     margin: auto;
+     padding-bottom: 5px;
+     
+ }
+
+ .nav-bar li:hover {
+    border-bottom: .2em solid black;
+    cursor: pointer;
+    color: black;
+    
+ }
+
+
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #FFF;
+     font-family: 'Lato', sans-serif;
+ }
+
+
+
+ .main {
+     width: 100%;
+     height: 660px;
+     background-image: url("coffee-beans.jpg");
+     background-size: cover;
+     background-position: 10;
+     border: 1px solid white;
+ }
+
+ .heading {
+     padding: 0;
+     margin: 0;
+     font-size: 52px;
+     font-family: 'Source Serif Pro', serif;
+     text-shadow: 1px 1px #5B3C30;
+ }
+
+.heading::selection {
+    background-color: #5B3C30;
+    color: white;
+}
+
+ .title {
+     width: 700px;
+     margin-top: 8%;
+ }
+
+ .subheading {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Source Serif Pro', serif;
+    color: #5B3C30;
+    text-shadow: 1px 1px rgba(80, 43, 22, 0.774);
+ }
+
+
+ .subheading::selection {
+     background-color: #5B3C30;
+     color: white;
+ }
+ /* .logo {
+     background-image: url("https://cdn.dribbble.com/users/3229064/screenshots/6579030/organic-coffee-logo.png");
+     z-index: 1;
+     height: 30px;
+     width: 30px;
+ } */
+
+.logo-image {
+    margin-top: -11px;
+} 
+
+img {
+    display: flex;
+    height: 70px;
+    width: 70px;
+   border-radius: 50%;
+   align-self: center;
+}
+
+.button {
+    height: 400px;
+    width: 100%;
+}
+
+ /* the perfect button  */
+ /* button {
+     height: 37px;
+     width: 80px;
+     border-radius: 12%;
+     font-family: 'Lato', sans-serif;
+     font-size: 13px;
+     background-color: rgb(221, 218, 218);
+     color: rgb(65, 62, 62);
+     margin-left: 20px;
+     cursor: pointer;
+     border: none;
+ }
+
+ button:hover {
+     color: rgb(24, 22, 22);
+     background-color: rgb(195, 191, 191)
+ } */
+
+
+ #our-drinks {
+     height: 400px;
+     width: 100%;
+     background: rgb(181,166,158);
+     background: linear-gradient(90deg, rgba(181,166,158,1) 1%, rgba(191,139,119,1) 49%, rgba(181,166,158,1) 80%, rgba(191,139,119,1) 100%);
+     display: flex;
+     padding-top: 20px;
+     justify-content: space-evenly;
+     cursor: pointer;
+ }
+
+ .header {
+     text-align: center;
+ }
+
+ .drink-row {
+     border: 1px solid black;
+     width: 300px;
+     height: 350px;
+     /* background-color: #ede9e6 */
+     border-radius: 3%;
+     box-shadow: 3px 3px #5B3C30;
+ }
+
+ .drink-row img {
+     margin: auto;
+     height: 130px;
+     width: 130px;
+     border: 5px solid #5B3C30;
+ }
+
+ .drink-row h1 {
+     text-align: center;
+     padding: 0;
+ }
+
+ .drink-row h3 {
+     font-size: 15px;
+     text-align: center;
+ }
+
+ .reviews {
+     height: 120px;
+     width: 100%;
+     background-color: #5B3C30;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .reviews img {
+     height: 100px;
+     width: 100px;
+     
+ }
+
+ .about-us {
+     background-color: #ebe9e6;
+     height: 400px;
+     width: 100%;
+ }
+
+ .p {
+    color: white;
+    margin-top: 50%;
+ }
